@@ -166,8 +166,8 @@ private:
 
 #define F(x) x
 
-#define noInterrupts() uint32_t intLevel = ulPortRaiseBASEPRI()
-#define interrupts() vPortSetBASEPRI(intLevel)
+#define noInterrupts()
+#define interrupts()
 
 #define F_CPU /*SystemCoreClock*/ 64000000
 
